@@ -1,0 +1,115 @@
+<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple E-Commerce</title>
+</head>
+<body>
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+    }
+
+    .product-card {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 5px;
+    }
+
+    .product-title {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+
+    .price {
+      color: green;
+      font-weight: bold;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      background-color: #007bff;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .btn:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+
+<header>
+  <h1>My Simple E-Commerce Site</h1>
+</header>
+
+<div class="container">
+  <div class="product-card">
+    <img src="C:\Users\sushm\OneDrive\Pictures\TK174139 - VINAY - Video Conference\TK174139 - Video Conference\DOCUMNET\screenshots\7.jpeg" alt="Product 1">
+    <div class="product-title">Product 1</div>
+    <div class="price">₹499</div>
+    <button class="btn">Add to Cart</button>
+  </div>
+  <div class="product-card">
+    <img src="C:\Users\sushm\OneDrive\Pictures\TK174139 - VINAY - Video Conference\TK174139 - Video Conference\CODE\client\public\logo512.png"alt="Product 2">
+    <div class="product-title">Product 2</div>
+    <div class="price">₹699</div>
+    <button class="btn">Add to Cart</button>
+  </div>
+  <div class="product-card">
+    <img src="C:\Users\sushm\OneDrive\Pictures\TK174139 - VINAY - Video Conference\TK174139 - Video Conference\DOCUMNET\screenshots\1.jpeg" alt="Product 3">
+    <div class="product-title">Product 3</div>
+    <div class="price">₹999</div>
+    <button class="btn">Add to Cart</button>
+  </div>
+  <div class="product-card">
+    <img src="C:\Users\sushm\OneDrive\Pictures\Screenshots\Screenshot 2024-03-29 121415.png" alt="Product 3">
+    <div class="product-title">Product 4</div>
+    <div class="price">₹1499</div>
+    <button class="btn">Add to Cart</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 My Shop. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
